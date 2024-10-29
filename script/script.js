@@ -20,8 +20,9 @@ for (let i = 1; i <= bound; i++) {
             // se i è SOLO multiplo di 3
             console.log("Fizz");
         }
-        // se i è SOLO multiplo di 5
-    } else if (i % 5 === 0) {
+    }
+    // se i è SOLO multiplo di 5
+    else if (i % 5 === 0) {
         console.log("Buzz");
     }
     // se i non è multiplo di 3 o 5
